@@ -1,4 +1,4 @@
-x = int(input())
+x =int(input())
 a = 0
 b = 1
 if x==0:
