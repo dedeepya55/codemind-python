@@ -1,13 +1,12 @@
-a=int(input())
-b=a*a
-t=0
-while a>0:
-    if b%10!=a%10:
+n=int(input())
+sq=n*n
+flag=0
+while n>0:
+    if n%10!=sq%10:
         print("Not an Automorphic Number")
-        t=1
+        flag=1
         break
-    b=b//10
-    a=a//10
-if t==0:
+    n=n//10
+    sq=sq//10
+if flag==0:
     print("Automorphic Number")
-    
