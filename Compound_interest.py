@@ -1,3 +1,3 @@
 p,r,t=map(int,input().split())
-c=p*(1+(r/100))**t
-print(f"{c:.2f}")
+a=p*(1+(r/100))**t
+print(f"{a:.2f}")
