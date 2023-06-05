@@ -1,5 +1,5 @@
-s=int(input())
-while(s):
+b=int(input())
+for i in range (b):
     n,a,b,k=map(int,input().split())
     c1=0
     c2=0
@@ -8,7 +8,7 @@ while(s):
     c2=n//b
     c=n//(a*b)
     if(c1+c2-c>=k):
-        print('Win')
+        print("Win")
     else:
-        print('Lose')
-    s-=1
+        print("Lose")
+
