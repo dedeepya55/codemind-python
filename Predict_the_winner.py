@@ -7,8 +7,7 @@ for i in range(n):
         c+=a[i]
     else:
         d+=a[i]
-if(abs(c-d)%4==0):
+if abs(c-d)%4==0:
     print('X')
 else:
     print('Y')
-    
